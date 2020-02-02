@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', "Trebuchet MS", sans-serif;
+    font-size: 1em;
+    width: 100vw;
+    height: 100vh;
+}
+main{
+    border: #dddddd;
+    border-left:  solid 1px;
+    border-right:  solid 1px;
+    padding: 0 10px 0 10px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: [c1s] 15% [c2s] 30% [c3s] 30% [c4s] auto [last-col-end];
+    grid-template-rows: [r1s] min-content [r2s] auto [r3s] min-content [last-row-end];
+    grid-template-areas:
+            "header header header header"
+            ". main main ."
+            "footer footer footer footer";
+}
+.grid-item-header {
+    grid-area: header;
+    display: grid;
+    grid-template-rows: [r1s] auto [r2s] min-content [last-row-end];
+}
+.grid-item-nav{
+    grid-row-start: r2s;
+}
+.grid-item-main {
+    grid-area: main;
+}
+.grid-item-sidebar {
+    grid-area: sidebar;
+}
+.grid-item-footer {
+    grid-area: footer;
+}
+header.grid-item-header{
+    background-image: url("../images/ibrahim-mushan-1066343-unsplash-no-halo-1920x600-72dpi.png");
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+header a{
+    text-decoration: none;
+    color: #000000;
+}
+a:hover{
+    cursor: pointer;
+}
+header h1{
+    margin: 0;
+    padding: 0;
+    font-family: 'Signika', "Lucida Sans Unicode", sans-serif;
+    font-size: 4rem;
+    position: absolute;
+    top: 16px;
+    left: 32px;
+    width: min-content;
+    box-sizing: border-box;
+}
+.first-logo-text{}
+.second-logo-text{
+    font-size: 6rem;
+    letter-spacing: 12px;
+    position: relative;
+    display: block;
+    top: -16px;
+    left: 97px;
+}
+nav{
+    float: left;
+}
+nav ul{
+    list-style-type: none;
+    padding-left: 15%;
+    margin: 0;
+}
+nav li{
+    float: left;
+    background-color: #f9f9f9ff;
+}
+nav li:hover{
+    transition: background-color 600ms linear;
+    background-color: #f9f9f988;
+}
+nav ul li a{
+    display: block;
+    padding: 8px 12px 8px 12px;
+}
+nav ul li a:hover{
+    transition: color 100ms linear;
+    color: #ffff00ff;
+}
+nav ul li:active{
+
+}
+.flex-article-list{
+
+}
+.content-container{
+
+}
+main footer{
+    text-align: right;
+    text-align: center;
+}
+footer p{
+    text-align: center;
+}
+p{
+}
+h2{
+    margin-top: 10px;
+    padding-left: 21px;
+    border-left: red solid 5px;
+}
+h2+a{
+    text-decoration: none;
+}
+.vertical-line {
+    display: block;
+}
+main article{
+    padding: 16px;
+}
+.flex-article-list{
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.flex-article-list-item{
+    flex-basis: 320px;
+    min-width: 45%;
+}
+.flex-article-list-item p{
+    text-align: justify;
+}
+.flex-article-list-item a h2:hover{
+    border-color: deepskyblue;
+}
+.teaser{
+      padding-left: 16px;
+}
+table{
+    text-align: left;
+}
+.image-item{
+    display: block;
+
+}
+main address{
+    text-align: center;
+}
