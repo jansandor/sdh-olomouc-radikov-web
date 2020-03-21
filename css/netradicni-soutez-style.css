@@ -1,0 +1,38 @@
+.propozice-souteze{
+    padding: 0 18px;
+}
+.propozice-souteze h2{
+    font-size: 24px;
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+.propozice-souteze p{
+    margin: 12px 0 12px 0;
+}
+.propozice-souteze time{
+    padding: 0;
+}
+.pravidla-souteze{
+    padding: 0 18px;
+}
+.pravidla-souteze h1{
+    font-size: 24px;
+    margin: 18px 0;
+}
+.pravidla-souteze ul li{
+    margin: 0 0 10px 0;
+}
+.pravidla-souteze h2{
+    font-size: 20px;
+    margin: 10px 0 0 0;
+}
+.pravidla-souteze h3{
+    font-size: 18px;
+    margin: 20px 0;
+}
+.pravidla-souteze h4{
+    margin: 20px 0;
+}
+.pravidla-souteze p{
+    margin: 12px 0 12px 0;
+}
