@@ -1,4 +1,4 @@
-# sdh-olomouc-radikov-webpage
+# Web pro SDH Olomouc-Radíkov
 
 Projekt přepracování původní webové stránky sboru dobrovolných hasičů v Olomouci - Radíkově do nové podoby.
 
