@@ -4,7 +4,7 @@ Projekt přepracování původní webové stránky sboru dobrovolných hasičů 
 
 Odkaz na stále běžící aktuální verzi stránky: https://sdh-radikov.estranky.cz/
 
-Poslední rozpracovaná verze: http://sdhradikov-webtest.sweb.cz/
+Poslední rozpracovaná verze: ~~http://sdhradikov-webtest.sweb.cz/~~
 
 Problémy, které vidím:
   1.  Stránky působí zmatečně. Nepovažuji je za přehledné a "vizuálně čisté". Dle mého je obtížné cokoliv najít a orientovat se na nich.
